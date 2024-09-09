@@ -51,22 +51,6 @@
     margin: 15px 0 20px;
 }
 
-.info-item .btn {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 180px;
-    height: 40px;
-    background: transparent;
-    border: 2px solid #fff;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    font-size: 16px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-}
-
 .item .img-box {
     position: absolute;
     left: 39%;
@@ -177,6 +161,10 @@
 
 .item:nth-child(5) .bg {
     background: #607D8B;
+}
+
+.item:nth-child(6) .bg {
+    background: #795548;
 }
 
 
