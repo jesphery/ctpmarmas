@@ -175,4 +175,8 @@
     background: #F44236;
 }
 
+.item:nth-child(5) .bg {
+    background: #607D8B;
+}
+
 
