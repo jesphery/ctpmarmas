@@ -53,10 +53,10 @@
 
 .item .img-box {
     position: absolute;
-    left: 39%;
+    left: 35%;
     top: 50%;
     transform: translateY(-50%);
-    width: 662px;
+    width: 900px;
     height: 700px;
     display: flex;
     align-items: center;
@@ -87,7 +87,6 @@
 
 .item.active .img-item img {
     transform: scale(1);
-
 }
 
 .thumb {
@@ -101,6 +100,7 @@
 .thumb li {
     width: 95px;
     height: 95px;
+    justify-content: space-around;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     overflow: hidden;
@@ -166,5 +166,11 @@
 .item:nth-child(6) .bg {
     background: #795548;
 }
+
+.item:nth-child(7) .bg {
+    background: #6A6A90;
+}
+
+
 
 
