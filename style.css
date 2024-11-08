@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
-
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
    font-family: 'Montserrat', sans-serif;
 }
-
 
 .carousel {
     height: 100vh;
@@ -19,7 +17,7 @@
     top: 50%;
     transform: translateY(-50%);
     width: 450px;
-    height: 280px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,27 +26,30 @@
 }
 
 .info-box .info-slider {
-    height: inherit;
+    height: auto;
 }
 
 .info-slider .info-item {
-    height: inherit;
+    min-height: 300px; /* Ajuste conforme necessário */
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #fff;
     transform: translateY(calc(var(--i) * 100%));
     transition: .5s ease;
+    padding: 20px; /* Adicionando padding */
 }
 
 .info-item h2 {
     font-size: 60px;
-    line-height: 1;
+    line-height: 1.2; /* Ajuste da altura da linha */
+    margin-bottom: 20px; /* Espaço abaixo do h2 */
 }
 
 .info-item p {
     font-size: 20px;
-    margin: 15px 0 20px;
+    margin-top: 20px; /* Espaço acima do parágrafo */
+    margin-bottom: 20px; /* Espaço abaixo do parágrafo */
 }
 
 .item .img-box {
@@ -186,6 +187,3 @@
 .item:nth-child(10) .bg {
     background: #fff;
 }
-
-
-
